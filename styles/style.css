@@ -1,0 +1,8 @@
+*{
+    font-family: 'Merriweather', serif;
+}
+
+.header{
+    background-image: url("../");
+    max-width: 1320px;
+}
