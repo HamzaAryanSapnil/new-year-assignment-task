@@ -59,7 +59,6 @@ main section {
   font-family: "Inter", sans-serif;
 }
 
-
 .discount-header-description {
   font-family: "Inter", sans-serif;
   color: #f00;
@@ -69,7 +68,6 @@ main section {
   padding-bottom: 16px;
   padding-top: 0;
 }
-
 
 .discount-subtitle {
   color: #070211;
@@ -81,14 +79,51 @@ main section {
   padding-bottom: 48px;
 }
 
-
 .discount-img {
   max-width: 800px;
   height: 500px;
 }
 
-
-
 /* midnight party section related styles */
 
+.midnight-party {
+  background-image: url("../img/Vectorrr.png");
+  background-repeat: no-repeat;
+  color: white;
+}
+.midnight-container {
+  display: flex;
+  gap: 90px;
+  flex-direction: row;
+  align-items: center;
+  padding: 70px 130px;
+}
 
+.midnight-header {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+  padding-bottom: 24;
+}
+.midnight-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  padding-top: 0;
+  padding-bottom: 48px;
+}
+.midnight-joinow-btn {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 0;
+  background: transparent;
+  padding-left: 32px;
+}
