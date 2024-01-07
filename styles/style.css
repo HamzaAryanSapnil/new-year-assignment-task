@@ -178,7 +178,32 @@ main section {
     align-items: center;
     justify-content: center;
 }
+.newoffers{
+    padding: 0 70px;
+}
+.best-offers{
+    color: #F00;
+text-align: center;
+font-family: "Inter", sans-serif;
+font-size: 24px;
+font-weight: 500;
+padding-bottom: 16px;
+}
+.comming-soon{
+    padding-top: 0;
+    color: #070211;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
 
+.offers-description{
+    color: rgba(7, 2, 17, 0.60);
+font-family: "Inter", sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
 .images{
     border-radius: 463px;
     border: 15px solid #F00;
