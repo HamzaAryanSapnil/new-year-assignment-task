@@ -91,6 +91,7 @@ main section {
   background-repeat: no-repeat;
   color: white;
 }
+
 .midnight-container {
   display: flex;
   gap: 90px;
@@ -107,6 +108,7 @@ main section {
   letter-spacing: 7.04px;
   padding-bottom: 24;
 }
+
 .midnight-description {
   color: rgba(255, 255, 255, 0.8);
   font-family: "Inter", sans-serif;
@@ -116,6 +118,7 @@ main section {
   padding-top: 0;
   padding-bottom: 48px;
 }
+
 .midnight-joinow-btn {
   color: #fff;
   text-align: center;
@@ -130,8 +133,11 @@ main section {
 /* started behaya ponar placing section related styles */
 
 .placing {
-    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    background-color: red;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
   text-align: center;
 }
 
@@ -144,9 +150,11 @@ main section {
   line-height: 56px; /* 175% */
   text-transform: capitalize;
 }
+
 .place-time-area {
   padding: 100px 300px;
 }
+
 .place-time-area h3 {
   color: #070211;
   font-family: "Inter", sans-serif;
@@ -155,9 +163,11 @@ main section {
   line-height: 56px;
   text-transform: capitalize;
 }
+
 .place-time {
   padding-bottom: 48px;
 }
+
 .place-btn {
   border: 0;
   border-radius: 8px;
@@ -171,40 +181,70 @@ main section {
   text-transform: uppercase;
 }
 
-
 /* new year offers section related styles */
-.new-year-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.newoffers{
-    padding: 0 70px;
-}
-.best-offers{
-    color: #F00;
-text-align: center;
-font-family: "Inter", sans-serif;
-font-size: 24px;
-font-weight: 500;
-padding-bottom: 16px;
-}
-.comming-soon{
-    padding-top: 0;
-    color: #070211;
-font-size: 48px;
-font-weight: 900;
-text-transform: capitalize;
+.new-year-container {
+  display: flex;
+  align-items: center;
+  background-color: rgb(124, 102, 102);
+  max-width: 1600px;
 }
 
-.offers-description{
+/* newoffers offers related styles */
+.offers {
+  padding-right: 70px;
+}
+.best-offers {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.comming-soon {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding-bottom: 22px;
+  padding-top: 16px;
+}
+.offers-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+/* newoffers images related styles */
+.images{
+    border-radius: 463px;
+border: 15px solid #F00;
+}
+
+.newoffer-img{
+    padding:40px;
+}
+
+/* .newoffers wishing related styles */
+.wishing {
+  padding-left: 0;
+}
+
+.new-year{
+    color: #F00;
+    font-family: "Merriweather", serif;
+font-size: 48px;
+font-weight: 700;
+}
+
+.wishing-description{
     color: rgba(7, 2, 17, 0.60);
-font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
 font-size: 20px;
 font-weight: 400;
 line-height: 32px; /* 160% */
+padding-top: 16px;
 }
-.images{
-    border-radius: 463px;
-    border: 15px solid #F00;
+.wishing-img{
+    padding-top: 43px;
 }
