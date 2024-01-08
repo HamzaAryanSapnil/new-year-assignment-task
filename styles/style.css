@@ -288,6 +288,7 @@ main section {
 /* holiday sale header related styles */
 .holiday-section-header{
   margin: 0 200px;
+  padding-bottom: 60px;
 }
 
 
@@ -303,4 +304,32 @@ main section {
 text-align: center;
 font-weight: 500;
 line-height: 32px; /* 160% */
+}
+
+/* holiday sale images related styles */
+.holiday-img{
+  background-image: url("../img/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  display: flex;
+
+}
+/*     padding: 17px 58px; */
+.discount-img-model-container{
+  position: relative;
+  background-color: #070211;
+   max-width: 550px;
+ max-height: 400px; 
+}
+.discount-img{
+  position: absolute;
+  z-index: 1;
+  right: 0%;
+  bottom: 15px;
+  left: -69px;
+
+}
+.discount-img-model{
+  position: absolute;
+  left: 93px;
 }
