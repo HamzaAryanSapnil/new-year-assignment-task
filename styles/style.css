@@ -403,13 +403,11 @@ main section {
 
 .newsletter-container-section-img {
   padding-bottom: 40px;
-  background-color: red;
 }
 
 .newsletter-container-section-sub-title {
   padding-top: 0;
   padding-bottom: 22px;
-  background-color: #8e5af6;
 
   font-size: 48px;
   font-weight: 900;
@@ -419,12 +417,10 @@ main section {
 .newsletter-container-section-description {
   padding-top: 0;
   padding-bottom: 48px;
-  background-color: #84d66e;
 }
 
 .newsletter-container-section-input {
   padding-top: 0;
-  background-color: #d5b54c;
   max-width: 650px;
   max-height: 80px;
   display: flex;
@@ -434,18 +430,28 @@ main section {
 .newsletter-section-input-email {
   max-width: 650px;
   max-height: 70px;
-  background-color: rgb(44, 51, 10);
   border-radius: 50px 0 0 50px;
   background: #fff;
   padding: 25px 0 25px 30px;
   width: 100%;
   border-right: 0;
+  color: rgba(7, 2, 17, 0.30);
+font-family: "Inter", sans-serif;
+font-size: 18px;
+font-weight: 400;
 }
 .newsletter-section-input-submit {
-  background-color: #e03bd8;
   border-radius: 0px 50px 50px 0px;
   background: #f00;
   max-width: 200px;
   width: 100%;
   border-left: 0;
+  color: #FFF;
+text-align: center;
+font-family: "Inter", sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
 }
