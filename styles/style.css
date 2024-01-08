@@ -295,6 +295,10 @@ main section {
   padding: 16px 0 25px 0;
 }
 
+.red-holiday-in-sub-title{
+  color: #f00;
+}
+
 .holiday-section-description{
 text-align: center;
 font-weight: 500;
