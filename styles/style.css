@@ -471,6 +471,7 @@ footer {
   display: flex;
   justify-content: space-around;
   padding-top: 120px;
+  padding-bottom: 50px;
 }
 
 .footer-content-description {
@@ -479,4 +480,13 @@ footer {
   font-size: 24px;
   font-weight: 500;
   line-height: 40px; /* 166.667% */
+}
+
+/* footer icons related styles */
+.footer-icons{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
