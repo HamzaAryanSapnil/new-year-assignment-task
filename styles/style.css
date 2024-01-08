@@ -435,10 +435,10 @@ main section {
   padding: 25px 0 25px 30px;
   width: 100%;
   border-right: 0;
-  color: rgba(7, 2, 17, 0.30);
-font-family: "Inter", sans-serif;
-font-size: 18px;
-font-weight: 400;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 .newsletter-section-input-submit {
   border-radius: 0px 50px 50px 0px;
@@ -446,19 +446,37 @@ font-weight: 400;
   max-width: 200px;
   width: 100%;
   border-left: 0;
-  color: #FFF;
-text-align: center;
-font-family: "Inter", sans-serif;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-text-transform: capitalize;
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
 }
-
 
 /* main finished */
 /* footer starter */
-footer{
+footer {
   max-width: 1600px;
+  background: #070211;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* footer header related styles */
+.footer-header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 120px;
+}
+
+.footer-content-description {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
 }
