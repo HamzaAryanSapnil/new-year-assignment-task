@@ -435,10 +435,11 @@ main section {
   max-width: 650px;
   max-height: 70px;
   background-color: rgb(44, 51, 10);
-  border-radius: 50px;
+  border-radius: 50px 0 0 50px;
   background: #fff;
   padding: 25px 0 25px 30px;
   width: 100%;
+  border-right: 0;
 }
 .newsletter-section-input-submit {
   background-color: #e03bd8;
@@ -446,4 +447,5 @@ main section {
   background: #f00;
   max-width: 200px;
   width: 100%;
+  border-left: 0;
 }
