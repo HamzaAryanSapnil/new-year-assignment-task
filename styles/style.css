@@ -459,11 +459,12 @@ main section {
 /* main finished */
 /* footer starter */
 footer {
-  max-width: 1600px;
+  max-width: 100%;
   background: #070211;
   color: #fff;
   text-align: center;
   margin: 0 auto;
+  margin-top: 120px;
 }
 
 /* footer header related styles */
@@ -506,4 +507,14 @@ footer {
   font-family: "Inter", sans-serif;
 font-size: 24px;
 font-weight: 500;
+}
+
+.footer-hr{
+  max-width: 1240px;
+  background: rgba(255, 255, 255, 0.15);
+  justify-content: center;
+  align-items: center;
+  opacity: 0.1;
+  background-color: #FFF;
+  margin: 0 auto;
 }
