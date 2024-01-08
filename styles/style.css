@@ -4,15 +4,30 @@
   padding: 0;
   font-family: "Merriweather", serif;
 }
-.section-description{
- 
-  color: rgba(7, 2, 17, 0.60);
+.section-description {
+  color: rgba(7, 2, 17, 0.6);
   font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 32px; /* 160% */
-  
 }
+
+.section-header{
+  text-align: center;
+}
+.section-title{
+  color: #070211;
+  font-family: "Inter", sans-serif;
+font-size: 24px;
+font-weight: 500;
+}
+
+.section-sub-title{
+  color: #070211;
+font-size: 72px;
+font-weight: 900;
+}
+
 
 /* header related styles */
 .header {
@@ -88,7 +103,7 @@ main section {
   padding-bottom: 48px;
 }
 
-.discount-all-ctg-img{
+.discount-all-ctg-img {
   max-width: 800px;
   height: 500px;
 }
@@ -201,7 +216,6 @@ main section {
 
 /* newoffers offers related styles */
 .offers {
-  
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -222,48 +236,67 @@ main section {
   padding-bottom: 22px;
   padding-top: 16px;
 }
-.offers-description {
-  
-}
+
 
 /* newoffers images related styles */
-.images{
-    border-radius: 463px;
-border: 15px solid #F00;
-max-width: 460px;
-max-height: 460px;
-margin: 0 110px 0 70px;
+.images {
+  border-radius: 463px;
+  border: 15px solid #f00;
+  max-width: 460px;
+  max-height: 460px;
+  margin: 0 110px 0 70px;
 }
 
-.newoffer-img{
-    padding:40px;
+.newoffer-img {
+  padding: 40px;
 }
 
 /* .newoffers wishing related styles */
 .wishing {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    max-width: 300px;
-    margin-top: 61px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  max-width: 300px;
+  margin-top: 61px;
 }
 
-.new-year{
-    color: #F00;
-    font-family: "Merriweather", serif;
-font-size: 48px;
-font-weight: 700;
+.new-year {
+  color: #f00;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 700;
 }
 
-.wishing-description{
-    color: rgba(7, 2, 17, 0.60);
-    font-family: "Inter", sans-serif;
-font-size: 20px;
-font-weight: 400;
+.wishing-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  padding-top: 16px;
+}
+.wishing-img {
+  padding-top: 43px;
+}
+
+
+/* started holiday sale section styling */
+.holiday-sale{
+  max-width: 1600px;
+}
+/* holiday sale header related styles */
+.holiday-section-header{
+  margin: 0 200px;
+}
+
+
+.holiday-section-sub-title{
+  padding: 16px 0 25px 0;
+}
+
+.holiday-section-description{
+text-align: center;
+font-weight: 500;
 line-height: 32px; /* 160% */
-padding-top: 16px;
-}
-.wishing-img{
-    padding-top: 43px;
 }
