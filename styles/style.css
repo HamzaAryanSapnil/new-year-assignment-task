@@ -185,13 +185,19 @@ main section {
 .new-year-container {
   display: flex;
   align-items: center;
-  background-color: rgb(124, 102, 102);
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
   max-width: 1600px;
 }
 
 /* newoffers offers related styles */
 .offers {
-  padding-right: 70px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  max-width: 380px;
 }
 .best-offers {
   color: #f00;
@@ -219,6 +225,9 @@ main section {
 .images{
     border-radius: 463px;
 border: 15px solid #F00;
+max-width: 460px;
+max-height: 460px;
+margin: 0 120px 0 70px;
 }
 
 .newoffer-img{
@@ -227,7 +236,12 @@ border: 15px solid #F00;
 
 /* .newoffers wishing related styles */
 .wishing {
-  padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    max-width: 300px;
+    margin-top: 58px;
 }
 
 .new-year{
