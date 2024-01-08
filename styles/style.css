@@ -455,3 +455,10 @@ font-weight: 500;
 line-height: normal;
 text-transform: capitalize;
 }
+
+
+/* main finished */
+/* footer starter */
+footer{
+  max-width: 1600px;
+}
