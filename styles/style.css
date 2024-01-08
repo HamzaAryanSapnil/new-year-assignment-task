@@ -4,6 +4,15 @@
   padding: 0;
   font-family: "Merriweather", serif;
 }
+.section-description{
+ 
+  color: rgba(7, 2, 17, 0.60);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  
+}
 
 /* header related styles */
 .header {
@@ -197,7 +206,7 @@ main section {
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  max-width: 380px;
+  max-width: 390px;
 }
 .best-offers {
   color: #f00;
@@ -214,11 +223,7 @@ main section {
   padding-top: 16px;
 }
 .offers-description {
-  color: rgba(7, 2, 17, 0.6);
-  font-family: "Inter", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 32px; /* 160% */
+  
 }
 
 /* newoffers images related styles */
@@ -227,7 +232,7 @@ main section {
 border: 15px solid #F00;
 max-width: 460px;
 max-height: 460px;
-margin: 0 120px 0 70px;
+margin: 0 110px 0 70px;
 }
 
 .newoffer-img{
@@ -241,7 +246,7 @@ margin: 0 120px 0 70px;
     align-items: start;
     justify-content: center;
     max-width: 300px;
-    margin-top: 58px;
+    margin-top: 61px;
 }
 
 .new-year{
